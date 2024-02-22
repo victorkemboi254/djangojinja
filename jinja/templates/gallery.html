@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block header %}Here are some pictures{% endblock %}
+{% block content %}
+    <img src="{% static '/img/download.jpg' %}" alt="">
+    <img src="{% static '/img/download (5).jpg' %}" alt="">
+    <img src="{% static '/img/download (2).jpg' %}" alt="">
+    
+{% endblock %}
